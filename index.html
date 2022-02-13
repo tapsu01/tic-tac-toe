@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tic Tac Toe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1 class="title">Tic Tac Toe</h1>
+      <div class="player-selection">
+        <div class="player-item" data-selection="scissors">
+          <ion-icon name="cut"></ion-icon>
+          <p>Scissors</p>
+        </div>
+        <div class="player-item" data-selection="paper">
+          <ion-icon name="paper"></ion-icon>
+          <p>Paper</p>
+        </div>
+        <div class="player-item" data-selection="rock">
+          <ion-icon name="egg"></ion-icon>
+          <p>Rock</p>
+        </div>
+      </div>
+
+      <div class="result-output"></div>
+
+      <div class="sumary">
+        <div>
+          <h2>MAN</h2>
+          <div class="man-counter counter">0</div>
+        </div>
+        <div>
+          <h2>VS</h2>
+        </div>
+        <div>
+          <h2>COMPUTER</h2>
+          <div class="computer-counter counter">0</div>
+        </div>
+      </div>
+
+      <div class="reset" style="display: none">
+        <button type="button">
+          <ion-icon name="refresh"></ion-icon> Play again
+        </button>
+      </div>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>

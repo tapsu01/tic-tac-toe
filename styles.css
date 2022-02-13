@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  background-color: #1c2128;
+}
+
+.wrapper {
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+.title {
+  color: #adbac7;
+  font-size: 36px;
+  font-weight: 500;
+  text-align: center;
+  margin: 40px 0;
+}
+
+.player-selection {
+  display: flex;
+  justify-content: space-between;
+}
+
+.player-selection {
+  color: #adbac7;
+  text-align: center;
+}
+
+.player-item {
+  align-items: center;
+  background-color: #22272e;
+  border: 2px solid #444c56;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 12px;
+  width: 90px;
+  aspect-ratio: 1;
+  transition: all 0.3s;
+}
+
+.player-item:hover {
+  box-shadow: 0 0 5px 0px #444c56;
+}
+
+.player-item ion-icon {
+  font-size: 40px;
+  margin-bottom: 8px;
+}
+
+.result-output {
+  color: #adbac7;
+  text-align: center;
+  margin: 40px 0;
+}
+
+.sumary {
+  color: #adbac7;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.sumary > div {
+  flex: 1;
+  text-align: center;
+}
+
+.counter {
+  font-size: 40px;
+}
+
+.reset {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.reset button[type='button'] {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 12px;
+}
+
+.reset button[type='button'] ion-icon {
+  margin-right: 6px;
+  font-size: 15px;
+}
